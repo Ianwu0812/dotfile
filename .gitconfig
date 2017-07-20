@@ -1,0 +1,8 @@
+[user]
+	name = banka.wu
+	email = banka.wu@gmail.com
+[alias]
+	co = checkout
+	br = branch
+	ci = commit
+	st = status
