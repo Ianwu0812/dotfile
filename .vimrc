@@ -1,1 +1,3 @@
-/home/ianwu/.vimrc
+set bg=dark
+set nu
+
