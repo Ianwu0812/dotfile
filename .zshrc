@@ -3743,7 +3743,7 @@ zrclocal
 
 eval "$(fasd --init auto)"
 
-## . /usr/share/autojump/autojump.sh
+. /usr/share/autojump/autojump.sh
 ## eval `dircolors ~/.dir_colors/dircolors`
 ## export GTK_THEME=Arc-dark
 
