@@ -3762,3 +3762,8 @@ eval "$(fasd --init auto)"
 # End:
 
 ###
+#
+cat ~/ascii/logo
+
+export HISTSIZE=10000
+export HISEFILESIZE=10000

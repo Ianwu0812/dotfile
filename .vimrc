@@ -3,6 +3,25 @@ set nu
 set tw=79
 nnoremap <silent> <F5> :NERDTree<CR>
 
+" Start interactive EasyAlign in visual mode (e.g. vipga)
+xmap ga <Plug>(EasyAlign)
+
+" Start interactive EasyAlign for a motion/text object (e.g. gaip)
+nmap ga <Plug>(EasyAlign)
+
+
+let g:rainbow_active = 1
+
+
+" indentLine
+" let g:indentLine_char = '¦'
+" let g:indentLine_color_term = 239
+" 映射到ctrl+i键
+" map <C-i> :IndentLinesToggle<CR>
+
+
+
+
 
 "NeoBundle Scripts-----------------------------
 if &compatible
@@ -27,9 +46,17 @@ NeoBundle 'ctrlpvim/ctrlp.vim'
 NeoBundle 'flazz/vim-colorschemes'
 
 
-NeoBundle 'Yggdroot/indentLine'
+" NeoBundle 'Yggdroot/indentLine'
 NeoBundle 'scrooloose/nerdtree'
 NeoBundle 'vim-airline/vim-airline'
+NeoBundle 'vimwiki/vimwiki'
+NeoBundle 'vim-scripts/YankRing.vim'
+NeoBundle 'luochen1990/rainbow'
+" NeoBundle 'vim-scripts/Conque-Shell'
+NeoBundle 'tpope/vim-fugitive'
+NeoBundle 'junegunn/vim-easy-align'
+NeoBundle 'kien/ctrlp.vim'
+NeoBundle 'KabbAmine/zeavim.vim'
 
 " You can specify revision/branch/tag.
 NeoBundle 'Shougo/vimshell', { 'rev' : '3787e5' }
