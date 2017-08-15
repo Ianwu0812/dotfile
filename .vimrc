@@ -1,5 +1,4 @@
 set bg=dark
-set nu
 set tw=79
 nnoremap <silent> <F5> :NERDTree<CR>
 
@@ -72,3 +71,5 @@ filetype plugin indent on
 NeoBundleCheck
 "End NeoBundle Scripts-------------------------
 
+set number
+nnoremap <F2> :set nonumber!<CR>
