@@ -1,6 +1,7 @@
 set bg=dark
 set tw=79
 nnoremap <silent> <F5> :NERDTree<CR>
+syntax on
 
 " Start interactive EasyAlign in visual mode (e.g. vipga)
 xmap ga <Plug>(EasyAlign)
@@ -10,16 +11,6 @@ nmap ga <Plug>(EasyAlign)
 
 
 let g:rainbow_active = 1
-
-
-" indentLine
-" let g:indentLine_char = '¦'
-" let g:indentLine_color_term = 239
-" 映射到ctrl+i键
-" map <C-i> :IndentLinesToggle<CR>
-
-
-
 
 
 "NeoBundle Scripts-----------------------------
@@ -73,3 +64,4 @@ NeoBundleCheck
 
 set number
 nnoremap <F2> :set nonumber!<CR>
+
